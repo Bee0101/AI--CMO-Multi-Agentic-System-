@@ -1,0 +1,16 @@
+# Gemini LLM Configuration
+GEMINI_API_KEY= 
+GEMINI_MODEL= 
+
+# Pinecone Vector Database
+PINECONE_API_KEY= 
+PINECONE_ENVIRONMENT= 
+PINECONE_INDEX_NAME= 
+
+# Embedding Model (nomic-embed-text is free)
+OPENAI_API_KEY=
+EMBEDDING_MODEL=nomic-embed-text
+
+# Social Media Integrations (Optional)
+HOOTSUITE_API_KEY=
+SPROUT_SOCIAL_API_KEY=
