@@ -52,6 +52,10 @@ pip install -r requirements.txt
 Create a `.env` file in the root of the project (if it does not exist) and add the following configuration variables:
 
 ```env
+# Gemini LLM Configuration
+GEMINI_API_KEY= 
+GEMINI_MODEL=
+
 # DeepSeek LLM Configuration
 DEEPSEEK_API_KEY=your_deepseek_api_key
 DEEPSEEK_BASE_URL=https://api.deepseek.com
@@ -65,6 +69,7 @@ PINECONE_INDEX_NAME=ai-twin-marketing
 # Embedding Model (use OpenAI for embeddings)
 OPENAI_API_KEY=your_openai_api_key
 EMBEDDING_MODEL=text-embedding-3-small
+EMBEDDING_MODEL=nomic-embed-text
 
 # Social Media Integrations (Optional)
 HOOTSUITE_API_KEY=your_hootsuite_api_key
@@ -122,3 +127,4 @@ AI--CMO-Multi-Agentic-System-/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 ```
+
