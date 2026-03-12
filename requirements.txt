@@ -1,0 +1,91 @@
+
+
+
+# Core
+fastapi 
+uvicorn 
+python-dotenv 
+pydantic 
+
+# AI & LLM - DeepSeek
+openai 
+langchain 
+langchain-openai 
+langchain-community 
+
+# Vector Database - Pinecone
+pinecone 
+pinecone-datasets 
+
+# Document Processing
+pypdf 
+python-docx 
+
+# Text Processing
+tiktoken 
+httpx   
+
+# Frontend (served via FastAPI)
+jinja2 
+
+# Integration (for Hootsuite/Sprout Social)
+requests 
+oauthlib 
+
+
+# Utilities
+python-multipart 
+aiofiles 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Core
+# fastapi==0.109.0
+# uvicorn==0.27.0
+# python-dotenv==1.0.0
+# pydantic==2.5.3
+
+# # AI & LLM - DeepSeek
+# openai==1.12.0
+# langchain==0.1.4
+# langchain-openai==0.0.5
+# langchain-community==0.0.16
+
+# # Vector Database - Pinecone
+# pinecone==3.0.1
+# pinecone-datasets==0.7.0
+
+# # Document Processing
+# pypdf==3.17.4
+# python-docx==1.1.0
+
+# # Text Processing
+# tiktoken==0.5.2
+# httpx==0.26.0
+
+# # Frontend (served via FastAPI)
+# jinja2==3.1.3
+
+# # Integration (for Hootsuite/Sprout Social)
+# requests==2.31.0
+# oauthlib==3.2.2
+
+
+# # Utilities
+# python-multipart==0.0.6
+# aiofiles==23.2.1
+
+# dotenv
+# load_dotenv
